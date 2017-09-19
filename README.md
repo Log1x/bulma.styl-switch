@@ -1,10 +1,36 @@
-# bulma.styl-switch
-This is a fork for the Bulma extension to display checkbox as a toggle button for implementation into [Bulma.styl](https://github.com/log1x/bulma.styl).
+# Bulma.styl Switch
 
-Preview
----
-![Switch extension](https://i.imgur.com/jSzdpz0.png)
+[![npm](https://img.shields.io/npm/v/bulma.styl-switch.svg)](https://www.npmjs.com/package/bulma.styl-switch)
+[![npm](https://img.shields.io/npm/dm/bulma.styl-switch.svg)](https://www.npmjs.com/package/bulma.styl-switch)
 
-Documentation
----
-You can refer to the [original repository](https://github.com/Wikiki/bulma-switch) for documentation.
+This is a 1:1 Stylus translation of the [bulma-switch](https://github.com/Wikiki/bulma-switch) extension by [Wikiki](https://github.com/Wikiki).
+
+This is generally for use with [Bulma.styl](https://github.com/log1x/bulma.styl). 
+
+## Installation 
+
+### Install from npm
+
+```sh
+$ npm install bulma.styl-switch
+```
+
+### Install from Yarn 
+
+```sh
+$ yarn add bulma.styl-switch
+```
+
+## Usage 
+
+```
+@require "~bulma.styl-switch/switch"
+```
+
+## Documentation 
+
+Documentation can be found at Wikiki's [extension documentation](https://wikiki.github.io/bulma-extensions/switch).
+
+## License
+
+Released under the MIT license.
