@@ -52,6 +52,11 @@ switch-size($size)
         background $switch-background-active
       &::after
         left $paddle-active-offest
+    &.is-rtl
+      + label
+        &::after
+          left: auto
+          right: $paddle-active-offest
 
   &.is-outlined
     + label
@@ -74,6 +79,17 @@ switch-size($size)
         border-radius $radius-large * 4
       &::after
         border-radius 50%
+
+  &.is-rtl
+    + label
+      padding-left: 0
+      padding-right: $switch-width + .5
+      &::before
+        left: auto
+        right: 0
+      &::after
+        left: auto
+        right: $switch-paddle-offset
 
 .switch[type="checkbox"]
   outline 0
